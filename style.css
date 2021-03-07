@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    animation: name 5s infinite;
+    
+}
+.fab{
+    font-size: 2rem;
+}
+.fa-html5{
+    color: orangered;
+}
+.fa-css3-alt{
+    color: #2196F3;
+}
+.fa-js{
+    color: red;
+}
+.fa-python{
+    color: rgb(47, 47, 201);
+}
+@keyframes name{
+    100%{
+        color: green;
+    }
+}
+.text1{
+    color: white;
+}
+p{
+    color: white;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.btn1{
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 5px;
+    color: gray;
+    background-color: transparent;
+
+}
+.btn1:hover{
+    background-color: #662896;
+    border-radius: 25px;
+    transition: .3s;
+}
+.btn1 a{
+    text-decoration: none;
+}
+.header{
+    background-color: #9610fb;
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    cursor: pointer;
+
+}
+.logo img{
+    width: 10rem;
+    height: 10rem;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+h3{
+    color: gray;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+h3:hover{
+    color: white;
+}
+.text1 h2{
+    color: gray;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.text1 p:hover{
+    color: rgb(255, 198, 11);
+    transition:  .3s ease-out;
+    font-size: 1rem;
+}
+.text1 h3{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.text1 h3:hover{
+    color: white;
+}
+.text1 p a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1rem;
+}
+
+.text1 p a:hover{
+    color: rgba(0, 0, 255, 0.466);
+    border-bottom: 2px solid white;
+    transition: 0.5s ease-out;
+}
+.tech{
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 25px;
+    
+    
+}
+.skills {
+    text-align: right;
+    /* padding-top: 10px; */
+    padding: .5px;
+    color: white;
+    border-radius: 25px;
+    
+}
+.html {
+    width: 60%;
+    background-color: #f44336;
+}
+.css {
+    width: 50%; 
+    background-color: #2196F3;
+}
+.js {
+    width: 30%; 
+    background-color: red;
+}
+.python {
+    width: 35%; background-color: rgb(47, 47, 201);
+}
