@@ -25,7 +25,10 @@ span{
 }
 @keyframes name{
     100%{
-        color: green;
+        color: blue;
+    }
+    50%{
+        color: red;
     }
 }
 .text1{
@@ -35,6 +38,10 @@ p{
     color: white;
     font-weight: bold;
     font-size: .8rem;
+}
+#highlight{
+	background-color: yellow;
+	padding:5px;
 }
 
 .btn1{
@@ -48,7 +55,7 @@ p{
 
 }
 .btn1:hover{
-    background-color: #662896;
+    background-color: rgb(45, 156, 45);
     border-radius: 25px;
     transition: .3s;
 }
