@@ -63,7 +63,7 @@ p{
     text-decoration: none;
 }
 .header{
-    background-color: #9610fb;
+    background-color: rgba(0,0,0,0.7);
     height: 100%;
     width: 100%;
     padding: 5rem;
